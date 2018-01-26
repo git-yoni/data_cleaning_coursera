@@ -129,4 +129,5 @@ group					-> mergedat$activity
 #############################################
 molten <- melt(mergedat,(id.vars=c("subject","activity")))
 tidydat <- dcast(molten, subject + activity ~ variable, mean)
-write.table(tidydat, "tidy_data.txt", sep = ",")
+write.table(tidydat, "tidy_data.txt", sep = ",",row.names = FALSE, 
+            quote = FALSE)
