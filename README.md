@@ -22,4 +22,4 @@ This repository contains the following files:
     4. Appropriately labels the data set with descriptive variable names.
     5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
     
-This script requires the `dplyr` and 'reshap2' packages. For windos users the 'curl' package is also required. If any of these packages aren't available, the script will download automatically. Only an internet connection is needed and the script will do the rest.
+This script requires the `dplyr` and `reshape2` packages. For windos users the `curl` package is also required. If any of these packages aren't available, the script will download automatically. Only an internet connection is needed and the script will do the rest.
