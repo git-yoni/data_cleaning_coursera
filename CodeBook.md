@@ -2,6 +2,7 @@
 ## Coursera: Getting and Cleaning Data
 ### Course Project
 
+Note that the full description of the features is found from `features_info.txt` included in the original dataset. This codebook contains  mainly the information relevant to the contents of the repository.
 
 ## Data Set
 ### Identifiers
