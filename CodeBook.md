@@ -2,7 +2,7 @@
 ## Coursera: Getting and Cleaning Data
 ### Course Project
 
-Note that the full description of the features is found from `features_info.txt` included in the original dataset. This codebook contains  mainly the information relevant to the contents of the repository.
+Note that the full description of the features is found from `features_info.txt` included in the [original data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). One may also visit the data set's  [homepage](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). This codebook contains  mainly the information relevant to the contents of the repository.
 
 ## Data Set
 
