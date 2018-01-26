@@ -17,46 +17,96 @@ Note that the full description of the features is found from `features_info.txt`
 	- `STANDING` (value = `5`): subject was standing during the test
 	- `LAYING` (value = `6`): subject was laying down during the test
 ### Measurements
+
+#### Time-domain signals
+
+- Average time-domain body acceleration in the X, Y and Z directions:
+
 * `Time-Body-Acc-Mean--X`
 * `Time-Body-Acc-Mean--Y`
 * `Time-Body-Acc-Mean--Z`
+
+- Standard deviation of the time-domain body acceleration in the X, Y and Z directions:
+
 * `Time-Body-Acc-Sigma-X`
 * `Time-Body-Acc-Sigma-Y`
 * `Time-Body-Acc-Sigma-Z`
+
+- Average time-domain gravity acceleration in the X, Y and Z directions:
+
 * `Time-GravityAcc-Mean--X`
 * `Time-GravityAcc-Mean--Y`
 * `Time-GravityAcc-Mean--Z`
+
+- Standard deviation of the time-domain gravity acceleration in the X, Y and Z directions:
+
 * `Time-GravityAcc-Sigma-X`
 * `Time-GravityAcc-Sigma-Y`
 * `Time-GravityAcc-Sigma-Z`
+
+- Average time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+
 * `Time-Body-AccJerk-Mean--X`
 * `Time-Body-AccJerk-Mean--Y`
 * `Time-Body-AccJerk-Mean--Z`
+
+- Standard deviation of the time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+
 * `Time-Body-AccJerk-Sigma-X`
 * `Time-Body-AccJerk-Sigma-Y`
 * `Time-Body-AccJerk-Sigma-Z`
+
+- Average time-domain body angular velocity in the X, Y and Z directions:
+
 * `Time-Body-Gyro--Mean--X`
 * `Time-Body-Gyro--Mean--Y`
 * `Time-Body-Gyro--Mean--Z`
+
+- Standard deviation of the time-domain body angular velocity in the X, Y and Z directions:
+
 * `Time-Body-Gyro--Sigma-X`
 * `Time-Body-Gyro--Sigma-Y`
 * `Time-Body-Gyro--Sigma-Z`
+
+- Average time-domain body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:
+
 * `Time-Body-Gyro-Jerk-Mean--X`
 * `Time-Body-Gyro-Jerk-Mean--Y`
 * `Time-Body-Gyro-Jerk-Mean--Z`
+
+- Standard deviation of the time-domain body angular velocity jerk (derivation of the angular velocity in time) in the X, Y and Z directions:
+
 * `Time-Body-Gyro-Jerk-Sigma-X`
 * `Time-Body-Gyro-Jerk-Sigma-Y`
 * `Time-Body-Gyro-Jerk-Sigma-Z`
+
+- Average and standard deviation of the time-domain magnitude of body acceleration:
+
 * `Time-Body-AccMag--Mean-`
 * `Time-Body-AccMag--Sigma`
+
+- Average and standard deviation of the time-domain magnitude of gravity acceleration:
+
 * `Time-GravityAccMag--Mean-`
 * `Time-GravityAccMag--Sigma`
+
+
+- Average and standard deviation of the time-domain magnitude of body acceleration jerk (derivation of the acceleration in time):
 * `Time-Body-AccJerkMag--Mean-`
 * `Time-Body-AccJerkMag--Sigma`
+
+- Average and standard deviation of the time-domain magnitude of body angular velocity:
+
 * `Time-Body-Gyro-Mag--Mean-`
 * `Time-Body-Gyro-Mag--Sigma`
+
+- Average and standard deviation of the time-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time):
+
 * `Time-Body-Gyro-JerkMag--Mean-`
 * `Time-Body-Gyro-JerkMag--Sigma`
+
+#### Frequency-domain signals
+
 * `Nu-Body-Acc-Mean--X`
 * `Nu-Body-Acc-Mean--Y`
 * `Nu-Body-Acc-Mean--Z`
