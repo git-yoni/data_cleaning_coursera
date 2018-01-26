@@ -37,14 +37,14 @@ if (!file.exists(fname)){
 path <- function(file) {
   paste(datadir,"/",file,sep="")
 }
-xtest       <- path ("test/X_test.txt")
-xtrain      <- path ("train/X_train.txt")
+xtest       	<- path ("test/X_test.txt")
+xtrain      	<- path ("train/X_train.txt")
 features	<- path ("features.txt")
-actlabels   <- path ("activity_labels.txt")
-ytest       <- path ("test/y_test.txt")
-ytrain      <- path ("train/y_train.txt")
-subtest     <- path ("test/subject_test.txt")
-subtrain    <- path ("train/subject_train.txt")
+actlabels   	<- path ("activity_labels.txt")
+ytest       	<- path ("test/y_test.txt")
+ytrain      	<- path ("train/y_train.txt")
+subtest     	<- path ("test/subject_test.txt")
+subtrain    	<- path ("train/subject_train.txt")
 
 ## Read training data
 trainsub <- read.table(subtrain)
