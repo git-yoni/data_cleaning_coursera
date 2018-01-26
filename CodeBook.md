@@ -107,42 +107,80 @@ Note that the full description of the features is found from `features_info.txt`
 
 #### Frequency-domain signals
 
+- Average frequency-domain body acceleration in the X, Y and Z directions:
+
 * `Nu-Body-Acc-Mean--X`
 * `Nu-Body-Acc-Mean--Y`
 * `Nu-Body-Acc-Mean--Z`
+
+- Standard deviation of the frequency-domain body acceleration in the X, Y and Z directions:
+
 * `Nu-Body-Acc-Sigma-X`
 * `Nu-Body-Acc-Sigma-Y`
 * `Nu-Body-Acc-Sigma-Z`
+
+- Weighted average of the frequency components of the frequency-domain body acceleration in the X, Y and Z directions:
+
 * `Nu-Body-Acc-Mean-Freq-X`
 * `Nu-Body-Acc-Mean-Freq-Y`
 * `Nu-Body-Acc-Mean-Freq-Z`
+
+- Average frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+
 * `Nu-Body-AccJerk-Mean--X`
 * `Nu-Body-AccJerk-Mean--Y`
 * `Nu-Body-AccJerk-Mean--Z`
+
+- Standard deviation of the frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+
 * `Nu-Body-AccJerk-Sigma-X`
 * `Nu-Body-AccJerk-Sigma-Y`
 * `Nu-Body-AccJerk-Sigma-Z`
+
+- Weighted average of the frequency components of the frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions:
+
 * `Nu-Body-AccJerk-Mean-Freq-X`
 * `Nu-Body-AccJerk-Mean-Freq-Y`
 * `Nu-Body-AccJerk-Mean-Freq-Z`
+
+- Average frequency-domain body angular velocity in the X, Y and Z directions:
+
 * `Nu-Body-Gyro--Mean--X`
 * `Nu-Body-Gyro--Mean--Y`
 * `Nu-Body-Gyro--Mean--Z`
+
+- Standard deviation of the frequency-domain body angular velocity in the X, Y and Z directions:
+
 * `Nu-Body-Gyro--Sigma-X`
 * `Nu-Body-Gyro--Sigma-Y`
 * `Nu-Body-Gyro--Sigma-Z`
+
+- Weighted average of the frequency components of the frequency-domain body angular velocity in the X, Y and Z directions:
+
 * `Nu-Body-Gyro--Mean-Freq-X`
 * `Nu-Body-Gyro--Mean-Freq-Y`
 * `Nu-Body-Gyro--Mean-Freq-Z`
+
+- Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body acceleration:
+
 * `Nu-Body-AccMag--Mean-`
 * `Nu-Body-AccMag--Sigma`
 * `Nu-Body-AccMag--Mean-Freq`
+
+- Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body acceleration jerk (derivation of the acceleration in time):
+
 * `Nu-Body-AccJerkMag--Mean-`
 * `Nu-Body-AccJerkMag--Sigma`
 * `Nu-Body-AccJerkMag--Mean-Freq`
+
+- Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body angular velocity:
+
 * `Nu-Body-Gyro-Mag--Mean-`
 * `Nu-Body-Gyro-Mag--Sigma`
 * `Nu-Body-Gyro-Mag--Mean-Freq`
+
+- Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time):
+
 * `Nu-Body-Gyro-JerkMag--Mean-`
 * `Nu-Body-Gyro-JerkMag--Sigma`
 * `Nu-Body-Gyro-JerkMag--Mean-Freq`
