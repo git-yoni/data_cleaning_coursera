@@ -37,28 +37,28 @@ if (!file.exists(fname)){
 path <- function(file) {
   paste(datadir,"/",file,sep="")
 }
-xtest       	<- path ("test/X_test.txt")
-xtrain      	<- path ("train/X_train.txt")
+xtest       <- path ("test/X_test.txt")
+xtrain      <- path ("train/X_train.txt")
 features	<- path ("features.txt")
-actlabels   	<- path ("activity_labels.txt")
-ytest       	<- path ("test/y_test.txt")
-ytrain      	<- path ("train/y_train.txt")
-subtest     	<- path ("test/subject_test.txt")
-subtrain    	<- path ("train/subject_train.txt")
+actlabels   <- path ("activity_labels.txt")
+ytest       <- path ("test/y_test.txt")
+ytrain      <- path ("train/y_train.txt")
+subtest     <- path ("test/subject_test.txt")
+subtrain    <- path ("train/subject_train.txt")
 
 ## Read training data
-trainsub 	<- read.table(subtrain)
-trainval 	<- read.table(xtrain)      ##this will take a few seconds more
-trainact 	<- read.table(ytrain)
+trainsub <- read.table(subtrain)
+trainval <- read.table(xtrain)      ##this will take a few seconds more
+trainact <- read.table(ytrain)
 
 ## Read test data
-testsub 	<- read.table(subtest)
-testval 	<- read.table(xtest)        ##this will take a few seconds more
-testact 	<- read.table(ytest)
+testsub <- read.table(subtest)
+testval <- read.table(xtest)        ##this will take a few seconds more
+testact <- read.table(ytest)
 
 ## Read features and activity labels
-feats		<- read.table(features, as.is=TRUE)
-acts		<- read.table(actlabels)
+feats	<- read.table(features, as.is=TRUE)
+acts	<- read.table(actlabels)
 
 ################# ( 1 ) #####################
 ##  Merge traning and test set to one
@@ -94,10 +94,9 @@ names(mergedat) <- 	gsub("[()]", "", names(mergedat))
 names(mergedat) <-	gsub("^f", "Nu-", names(mergedat))
 names(mergedat) <-	gsub("^t", "Time-", names(mergedat))
 names(mergedat) <-	gsub("mean", "Mean-", names(mergedat))
-names(mergedat) <-	gsub("std", "Sigma-", names(mergedat))
+names(mergedat) <-	gsub("std", "Sigma", names(mergedat))
 names(mergedat) <-	gsub("BodyBody", "Body", names(mergedat))
 names(mergedat) <-	gsub("Body", "Body-", names(mergedat))
-names(mergedat) <-	gsub("Freq", "Freq-", names(mergedat))
 names(mergedat) <-	gsub("Gyro", "Gyro-", names(mergedat))
 names(mergedat) <-	gsub("Grvity", "Grvity-", names(mergedat))
 names(mergedat) <-	gsub("Mag", "Mag-", names(mergedat))
