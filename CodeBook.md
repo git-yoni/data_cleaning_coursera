@@ -1,6 +1,6 @@
-#Code Book
-##Coursera: Getting and Cleaning Data
-###Course Project
+# Code Book
+## Coursera: Getting and Cleaning Data
+### Course Project
 =====================================
 
 ## Data Set
