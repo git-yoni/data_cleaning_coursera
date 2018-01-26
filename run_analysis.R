@@ -119,8 +119,8 @@ rbind(trainact, testact) -> actdat
 cbind(subdat, actdat, mergedat) -> mergedat
 
 factor(mergedat$act)	-> group
-acts[,2] 				-> levels(group)
-group					-> mergedat$activity
+acts[,2] 		-> levels(group)
+group			-> mergedat$activity
 
 ################# ( 5 ) #####################
 ## Create an independent tidy data set
