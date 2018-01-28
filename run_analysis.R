@@ -127,7 +127,7 @@ group			-> mergedat$activity
 ## with the average of each variable for 
 ## each activity and each subject
 #############################################
-molten <- melt(mergedat,(id.vars=c("subject","activity")))
+molten 	<- melt(mergedat,(id.vars=c("subject","activity")))
 tidydat <- dcast(molten, subject + activity ~ variable, mean)
 write.table(tidydat, "tidy_data.txt", sep = ",",row.names = FALSE, 
             quote = FALSE)
